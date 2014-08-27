@@ -48,9 +48,9 @@ Untracked files:
 1.删除文件
 rm fff.txt
 
-2.从 Git中删除
+2.从 Git中删除      //删除最新版本中的fff.txt 即删除本地文件后在提交一次的效果
 git rm fff.txt
 
-3.提交操作
+3.提交操作          //删除所有历史中的fff.txt
 git commit -m "delete fff.txt"
 
