@@ -10,3 +10,35 @@ git config --list
 2.文件夹中初始化Git
    cd xutaoDemo
    git init
+
+
+把工程放入 许涛Demo文件夹中（windows）
+1.创建空文件   touch ddd.txt
+  建立内容     vim ddd.txt    保存退出 Esc+:wq
+
+2.缓存文件的保存（告诉git这是要提交到仓库的文件）
+  git add ddd.txt
+  git status   //查看缓存文件保存的情况
+                   
+ 如下：               
+xutao@XUTAO-PC /f/Git (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   fff.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Readme
+        "git\345\221\275\344\273\244.txt"
+
+
+3.提交到仓库
+ git commit -m "第一次"
+  引号里的字符串是为了标记每次提交（分支）
