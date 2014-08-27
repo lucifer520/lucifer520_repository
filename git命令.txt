@@ -1,0 +1,12 @@
+git config --global user.name "lucifer"
+
+git config --global user.email "13813008359@163.com"
+
+git config --list
+
+初始化一个新的git repository
+1.创建一个文件夹
+   mkdir xutaoDemo
+2.文件夹中初始化Git
+   cd xutaoDemo
+   git init
